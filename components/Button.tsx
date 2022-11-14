@@ -54,7 +54,6 @@ export const Button: React.FC<ButtonProps> = ({
             sans-serif;
           font-weight: 700;
           border: 0;
-          border-radius: 3em;
           cursor: pointer;
           display: inline-block;
           line-height: 1;
