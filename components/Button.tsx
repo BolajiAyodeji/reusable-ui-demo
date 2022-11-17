@@ -43,6 +43,7 @@ export const Button: React.FC<ButtonProps> = ({
         className={['storybook-button', `storybook-button--${size}`, mode].join(
           ' '
         )}
+        onClick={()=> console.log('clicked')}
         style={{ backgroundColor }}
         {...props}
       >
